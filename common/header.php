@@ -76,6 +76,10 @@
             <?php fire_plugin_hook('public_header', array('view'=>$this)); ?>
 
             <div class="fh5co-footer">
+              <a href="https://badac.uniandes.edu.co" target="_blank">
+              <img src="<?php echo img('uniandes-badac-sm.png') ?>" alt="" class="img-responsive" />
+              </a>
+
                 <p><small><?php echo (get_theme_option('footer_text')) ?></small></p>
                 <p><small>Tema desarrollado por el  <a href="https://badac.uniandes.edu.co">BADAC</a>, basado en  <a href="https://github.com/upenndigitalscholarship/phillysigns">phyllysigns</a></small></p>
                 <ul>
